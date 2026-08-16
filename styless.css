@@ -1,0 +1,89 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    color: #1f2937;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+/* Other headings */
+h2 {
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Ordered list */
+ol {
+    background: white;
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 5px;
+}
+
+/* LinkedIn button */
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #0a66c2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* LinkedIn icon */
+.linkedin-btn span {
+    background: white;
+    color: #0a66c2;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.linkedin-btn:hover {
+    background: #004182;
+    transform: translateY(-2px);
+}
+
+/* MDN link */
+body > a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body > a:hover {
+    text-decoration: underline;
+}
