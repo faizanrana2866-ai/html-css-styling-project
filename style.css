@@ -1,182 +1,94 @@
-/* General Styling */
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: #222;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
     margin: 0;
     padding: 40px;
-    line-height: 1.6;
-    min-height: 100vh;
+    color: #333;
 }
 
-
-/* Main Heading */
 h1 {
-    color: white;
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 35px;
-    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    animation: fadeDown 1s ease;
-}
-
-
-/* Other Headings */
-h2 {
-    color: #4f46e5;
-    margin-bottom: 8px;
-    font-size: 28px;
-}
-
-
-h3 {
-    margin-top: 30px;
     color: white;
-    font-size: 24px;
+    font-size: 45px;
 }
 
+h2 {
+    color: #2563eb;
+}
 
-/* Paragraph */
 p {
     font-size: 18px;
-    color: #444;
 }
 
-
-/* Content Card */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* List Design */
 ol {
-    background: rgba(255,255,255,0.9);
-    width: 350px;
-    padding: 25px 45px;
-    border-radius: 20px;
-    box-shadow: 
-    0 10px 30px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
-    transition: 0.4s;
-}
-
-
-ol:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    background: white;
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
 }
 
 
 li {
     padding: 8px;
-    font-size: 18px;
 }
 
 
-/* LinkedIn Button */
+/* Button */
 .linkedin-btn {
 
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-
-    background: linear-gradient(45deg,#0a66c2,#004182);
-
+    background: #0a66c2;
     color: white;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
     text-decoration: none;
 
-    padding: 14px 28px;
-
-    border-radius: 50px;
-
     font-size: 18px;
-    font-weight: bold;
 
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: inline-block;
 
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 
-/* LinkedIn Icon */
+.linkedin-btn:hover {
+
+    background: #004182;
+
+    transform: scale(1.05);
+
+}
+
+
 .linkedin-btn span {
 
     background:white;
+
     color:#0a66c2;
 
-    padding:5px 8px;
+    padding:3px 6px;
 
-    border-radius:6px;
-
-    font-weight:bold;
-}
-
-
-/* Button Hover */
-.linkedin-btn:hover {
-
-    transform: scale(1.08);
-
-    background: linear-gradient(45deg,#004182,#0a66c2);
+    border-radius:5px;
 
 }
 
-
-/* MDN Link */
 
 body > a {
 
-    margin-top:25px;
-
     color:white;
-
-    font-size:18px;
 
     text-decoration:none;
 
     font-weight:bold;
 
-    padding:10px 20px;
-
-    border:2px solid white;
-
-    border-radius:30px;
-
-    transition:0.3s;
 }
 
 
 body > a:hover {
 
-    background:white;
-
-    color:#667eea;
-
-}
-
-
-
-/* Animation */
-
-@keyframes fadeDown {
-
-    from {
-
-        opacity:0;
-
-        transform:translateY(-40px);
-
-    }
-
-    to {
-
-        opacity:1;
-
-        transform:translateY(0);
-
-    }
+    text-decoration:underline;
 
 }
